@@ -43,7 +43,7 @@ $ yarn dev<br>
 # 01 - Ouvindo e listando os eventos
 $ stripe listen<br>
 # 02 - Encaminhar eventos recebidos p/ o servidor
-$ stripe listen --forward-to localhost:3000/api/webhooks
+$ stripe listen --forward-to localhost:3000/api/webhooks<br>
 # 03 - Acesse a aplicação, faça login via Github e faça um pagamento via Stripe
 $ http://localhost:3000
 </pre>
